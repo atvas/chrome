@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: v-sans, v-mono, other-fallbacks, serif;
+    /*font-size: 15px;*/
+}
+
+/*公共样式*/
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+}

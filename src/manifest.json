@@ -1,0 +1,31 @@
+{
+  "{{chrome}}.manifest_version": 3,
+  "{{firefox}}.manifest_version": 2,
+  "icons": {
+    "16": "icon/16.png",
+    "32": "icon/32.png",
+    "48": "icon/48.png",
+    "96": "icon/96.png",
+    "128": "icon/128.png"
+  },
+  "permissions": [
+    "history",
+    "notifications",
+    "activeTab",
+    "scripting",
+    "storage",
+    "nativeMessaging"
+  ],
+  "{{chrome}}.action": {
+    "default_popup": "src/popup.html"
+  },
+  "{{chrome}}.chrome_url_overrides" : {
+    "newtab" : "src/newtab.html"
+  },
+  "{{firefox}}.chrome_url_overrides" : {
+    "newtab" : "src/newtab.html"
+  },
+  "{{firefox}}.browser_action": {
+    "default_popup": "src/popup.html"
+  }
+}

@@ -1,0 +1,25 @@
+@forward "element-plus/theme-chalk/src/common/var.scss" with ($colors: (
+        "primary": ("base": #0055cc),
+        "success": ("base": #71d46f),
+        "warning": ("base": #e6a23c),
+        "danger": ("base": #E34D59),
+        "error": ("base": #E34D59),
+        "info": ("base": #E7E7E7),
+    ),
+    $text-color : (
+        "primary": #000
+    ),
+    $dialog : (
+      "border-radius" : '16px',
+      "title-font-size" : '15px'
+    ),
+    $input : (
+      "border-radius" : '8px'
+    )
+);
+
+
+:root{
+  --el-border-radius-base : 8px;
+  --el-font-size-base: 12px
+}
